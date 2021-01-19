@@ -1,0 +1,316 @@
+
+.home-section-1{
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 20px 0px; 
+    /* height: 100vh; */
+    min-height: 80vh;
+    background: url('../images/bg.png') no-repeat top;
+    /* background: url('../images/background.png');
+    opacity: 0.2; */
+}
+
+.home-section-1-image{
+    max-width: 600px;
+    box-shadow: 3px 3px 25px rgb(223, 223, 223);
+    /* border: 1px solid  #FFE6E8; */
+    margin: 10px;
+    border-radius: 50%;
+    transition: margin 200ms ease-in-out;
+}
+
+.home-section-1-image > img{
+    width: 100%;
+    border-radius: 50%;
+}
+.home-section-1-text{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px 20px;
+    color: #333333;
+    /* border: 1px solid green; */
+    max-width: 500px;
+}
+.home-section-2{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+.home-section-2 >  .section-2-head{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+}
+.sec-2-text-1{
+    font-size:20px;
+    font-weight: 600;
+    /* color: #f3ddde; */
+    color: #FF4F5A;
+    text-transform: uppercase;
+}
+.sec-2-text-2{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.home-section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    min-height: 80vh;
+}
+.home-section-2 > .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid purple; */
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.sec-2-content-item{
+    /* border: 1px solid green; */
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px;
+
+}
+.sec-2-content-item > .icon{
+    padding: 10px;
+
+}
+.sec-2-content-item > .text{
+    padding: 10px;
+    color: #8F7A7A;
+} 
+.sec-2-content-item > .text > span{
+    /* border: 1px solid red; */
+    font-size: 20px;
+    font-weight: 600; 
+    display: block;
+    color: black;
+}
+
+.home-section-3{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    min-height: 80vh;
+}
+.home-section-3 > .image{
+    max-width: 1000px;
+}
+.home-section-3 > .image > img{
+    width: 100%;
+}
+.home-section-3 > .content {
+    /* border: 1px solid palevioletred; */
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 20px;
+}
+.home-section-3 > .content > .text-1{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FF4F5A;
+}
+.home-section-3 > .content > .text-2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top:20px;
+}
+.home-section-3 > .content > .btn {
+    /* padding: 20px; */
+    margin-top: 20px;
+}
+.home-section-3 > .content > .btn > button{
+    border: none;
+    background-color: #FF4F5A;
+    padding: 10px 20px;
+    color: white;
+    transition: background-color 300ms ease-out;
+}
+.home-section-3 > .content > .btn > button:hover{
+    background-color: #d14952 ;
+}
+
+.home-section-4{
+    margin:30px 10px;
+    min-height: 80vh;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    /* border: 1px solid red; */
+}
+.home-section-4 > .head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home-section-4 > .head{
+    font-size: 30px;
+    /* color: #FF4F5A; */
+    font-weight: 500;
+}
+.home-section-4 > .head > span{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FF4F5A;
+    /* color: #e7a7ab; */
+    text-transform: uppercase;
+}
+.home-section-4 > .content{
+/* border: 1px solid green; */
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 20px;
+}
+.home-section-4 > .content > .image{
+    max-width: 500px;
+}
+.home-section-4 > .content > .image > img{
+    width: 100%;
+}
+.home-section-4 > .content > .text {
+    font-size: 30px;
+    max-width: 500px;
+    font-weight: 600;
+
+}
+
+@media screen and (max-width:840px){
+
+    .home-section-2 > .content{
+        justify-content: center;
+    }
+    .home-section-3 > .content{
+        align-items: center;
+    }
+    .home-section-3 > .content > .text-2{
+        text-align: center;
+    }
+
+
+
+}
+
+@media screen and (max-width:450px){
+    .home-section-1-text{
+        font-size: 25px;
+        text-align: center;
+    }
+    .home-section-4 > .head{
+        text-align: center;
+        font-size: 25px;
+    }
+    .home-section-4 > .content > .text{
+        font-size: 25px;
+        text-align: center;
+        margin: 20px 0px;
+    }
+}
+
+
+.photes{
+
+    height: 40px;
+    position: relative;
+    left: 815px;
+    top: 115px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 10%;
+
+}
+
+.phote12{
+
+    height: 70px;
+    width: 50px;
+    position: relative;
+    left: 670px;
+    top: 104px;
+    border-radius: 10%;
+
+}
+
+
+.photes:hover{
+    transform: scale(4.3);
+    z-index: 2;
+    box-shadow: 0px 5px 20px rgb(5, 5, 5);
+}
+
+
+.phote12:hover{
+    transform: scale(4.3);
+    z-index: 2;
+    box-shadow: 0px 5px 20px rgb(5, 5, 5);
+}
+
+
+.moveing{
+
+    height: 70px;
+    width: 45px;
+    position: relative;
+    left: 840px;
+    bottom: 240px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 5%;
+
+}
+
+.moveing:hover{
+    transform: scale(4.3);
+    z-index: 2;
+    box-shadow: 0px 5px 20px rgb(5, 5, 5);
+}
+
+.living{
+
+position: relative;
+left: 827px;
+bottom: 237px;
+height: 70px;
+width: 45px;
+
+    
+
+}
+
+.living:hover{
+    transform: scale(3.3);
+    z-index: 2;
+    box-shadow: 0px 5px 20px rgb(5, 5, 5);
+}

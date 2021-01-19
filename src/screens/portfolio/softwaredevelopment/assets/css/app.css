@@ -1,0 +1,146 @@
+.softwareportfolio-section-1{
+    /* border: 1px solid rgb(219, 198, 198); */
+    background:url('../images/bg.png') no-repeat center top;  
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.softwareportfolio-section-1 > .head{
+    font-size: 60px;
+    font-weight: 500;
+    margin: 20px;
+}
+.softwareportfolio-section-1 > .content{
+    max-width: 500px;
+    font-size:18px;
+    font-weight: 600;
+    line-height: 2.5rem;
+    color: #949292;
+    margin:30px 20px;
+    text-align: center;
+}
+
+.softwareportfolio-section-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+    /* border: 1px solid red; */
+    margin: 20px auto;
+    min-height: 550px;
+    flex-wrap: wrap;
+}
+.change{
+    flex-direction: row-reverse;
+}
+.softwareportfolio-section-3 > .image{
+    max-width: 500px;
+    max-height: 500px;
+    height: 400px;
+    margin: 10px 40px;
+    /* border: 1px solid red; */
+}
+.softwareportfolio-section-3 >.image >img {
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+.softwareportfolio-section-3 > .content{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+.softwareportfolio-section-3 > .content > .head{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 10px;
+}
+.softwareportfolio-section-3 > .content > .text{
+    font-size: 16px;
+    color:#949292;
+    margin: 10px 10px;
+    /* font-weight: 500; */
+}
+.softwareportfolio-section-3 > .content > .btn{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    padding: 0px;
+}
+.softwareportfolio-section-3 > .content > .btn-2{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    padding: 0px;
+}
+.softwareportfolio-section-3 > .content > .btn > button{
+    border: none;
+    padding: 10px 30px;
+    background-color: #FF4F5A;
+    color: white;
+    transition: background-color 300ms ease-out;
+    margin: 0px;
+}
+.softwareportfolio-section-3 > .content > .btn-2 > button{
+    border: none;
+    padding: 10px 30px;
+    background-color: #1A2E35;
+    color: white;
+    transition: background-color 300ms ease-out;
+    margin: 0px;
+}
+.no-portfolio-text{
+    font-size: 30px;
+    font-weight: 500;
+    color: #949292;;
+}
+
+
+.softwareportfolio-section-3 > .content > .btn > button:hover{
+background-color: #bd3b44;
+}
+.softwareportfolio-section-3 > .content > .btn-2 > button:hover{
+background-color: rgb(59, 59, 59);
+}
+.head-2{
+    font-size: 35px;
+    font-weight: 600;
+    border-bottom: 1px solid #FF4F5A;
+    /* border: 1px solid red; */
+    transition:  border 300ms ease-out;
+    text-align: center;
+}
+.head-2:hover{
+    border-bottom: 3px solid #FF4F5A;
+}
+
+@media screen and (max-width:480px){
+    .softwareportfolio-section-1 > .head{
+        font-size: 40px;
+        text-align: center;
+    }
+    .softwareportfolio-section-2 > .content{
+        justify-content: center;
+    }
+    .softwareportfolio-section-3 > .image{
+        height: 100%;
+    }
+    .softwareportfolio-section-3 > .content{
+        justify-content: center;
+        align-items: center;
+    }
+    .softwareportfolio-section-3 > .content > .head{
+        font-size: 25px;
+    }
+    .softwareportfolio-section-3 > .content > .head, .softwareportfolio-section-3 > .content > .text{
+        margin: 20px;
+        text-align: center;
+    }
+
+}
